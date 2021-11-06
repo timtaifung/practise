@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0 auto;
+    background-color: #B91646;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Reusable Data */
+.basic{
+    box-sizing: border-box;
+    width:250px;
+    
+    vertical-align: middle;
+    line-height: 380px;
+    height: 380px;
+    margin: 5px auto;
+    border: 3px solid black;
+    position:sticky;
+    top:40px;
+}
+
+
+.deck{
+    background-color: #105652;
+    margin: 50px auto;
+    z-index: 1;
+}
+
+.card{ 
+    background-color: #DFD8CA;
+
+/* Specifics */
+.title h1{
+    background-image: url('css\ground.jpg');
+    height: 50px;
+    width:100%;
+    color: whitesmoke;
+    vertical-align: top;
+
+}
